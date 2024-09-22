@@ -1,0 +1,27 @@
+# Information about Basketball and the situation we are handling
+
+Basketball is a team sport played between two teams, each consisting of five players. The game takes place on a rectangular court, usually indoors.  It is a complex game, and we will need to make many assumptions to help with reducing the number of thing we need to program to a manageable level!  Consider the following information.  We will add to this and build some other support materials over the coming month (hopefully together in those new sync sessions!).
+
+
+Here are the fundamental elements of basketball:
+
+## Objective:
+
+The primary goal is to score points by tossing the ball through the opponent’s goal, which is an elevated horizontal hoop and net called a basket.
+
+## Scoring:
+
+Two-Point Scenario: A two-pointer refers to a shot made from anywhere inside the three-point arc. Successful two-point shots add two points to the team’s total score. These shots can include jump shots, layups, and dunks.
+Three-Point Scenario: Shots made from beyond the three-point arc count for three points.
+
+## Fouls:
+
+A foul occurs when a player violates the rules, often through illegal personal contact with an opponent or unsportsmanlike behavior.
+
+## Free Throws:
+
+After a foul, the clock stops while the fouled player shoots free throws.  While there are different situations in which a player might shoot one or two free throws for one point each, for our program, assume that the team that was fouled will always have the chance for two free throws.
+
+## Time to advance the ball or to foul:  
+
+It takes some time to advance the ball up the court to attempt a two point shot.  We will need to account for this.  It also takes some time (usually a bit less) to commit a foul to stop the clock.
